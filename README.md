@@ -1,4 +1,5 @@
 # terning
+Gruppe 33
 1. s165238, Mikkel Lund, Mikkel257
 2. s144265, Arvid Langso, ArvidLangsoe
 3. s143233, Simon Engquist, TheDaneSimon
