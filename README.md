@@ -1,7 +1,7 @@
 # terning
 Gruppe 33
-1. s165238, Mikkel Lund, Mikkel257
-2. s144265, Arvid Langso, ArvidLangsoe
-3. s143233, Simon Engquist, TheDaneSimon
-4. s165243, Mads Stege, Arcires
-5. s093905, Jeppe T. Nielsen, jeppe89
+* s165238, Mikkel Lund, Mikkel257
+* s144265, Arvid Langso, ArvidLangsoe
+* s143233, Simon Engquist, TheDaneSimon
+* s165243, Mads Stege, Arcires
+* s093905, Jeppe T. Nielsen, jeppe89
