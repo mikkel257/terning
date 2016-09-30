@@ -18,6 +18,8 @@ public class DiceTest {
 		dice = null;
 	}
 
+	
+	//Tester om roll slår mellem 1 og 6
 	@Test
 	public void testRoll() {
 		int value;
