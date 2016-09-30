@@ -32,10 +32,9 @@ public class DiceTest {
 	}
 	
 	@Test
-	public void test() 
+	public void fairnessTest() 
 	{
 		Dice d3 = new Dice();
-		int faceValue = d3.roll();
 
 		int et = 0;
 		int to = 0;
@@ -44,24 +43,33 @@ public class DiceTest {
 		int fem = 0;
 		int seks = 0;
 
+		int faceValue = 0;
 		for (int i = 0; i < 60000; i++)
 		{
-
+			faceValue = d3.roll();
 			switch (faceValue)
 			{
-			case (1): et++;
+			case (1): et++; 
 			break;
-			case (2): to++;
+			case (2): to++; 
 			break;
-			case(3): tre++;
+			case(3): tre++; 
 			break; 
-			case(4): fire++;
+			case(4): fire++; 
 			break; 
-			case(5): fem++;
+			case(5): fem++; 
 			break;
-			default: seks++;
+			default: seks++; 
 			}
 		}
+		
+		System.out.println(seks);
+		System.out.println(fem);
+		System.out.println(fire);
+		System.out.println(tre);
+		System.out.println(to);
+		System.out.println(et);
+		
 		boolean expectedEt = true;
 		boolean expectedTo = true;
 		boolean expectedTre = true;
