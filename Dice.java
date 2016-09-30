@@ -1,3 +1,4 @@
+//gruppe 33
 package terning;
 
 public class Dice {
