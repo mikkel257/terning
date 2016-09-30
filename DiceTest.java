@@ -1,7 +1,7 @@
 //Grupppe 33 - d. 30-09-15
 
 package terning;
-
+//gruppe 33
 import static org.junit.Assert.*;
 
 import org.junit.After;
