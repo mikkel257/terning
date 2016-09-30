@@ -5,7 +5,7 @@ public class Dice {
 	public int roll() {
 		float d1=(float)Math.random();     // 0-1
 		float d2=d1*6;                     // 0-6 Ændring fra 5 til 6.
-		int d3=Math.floor(d2);             // 0-5 integer der runder ned.
+		int d3 = (int) d2;             // 0-5 integer der runder ned.
 		return d3 + 1;                     // 1-6		
 	}
 	
