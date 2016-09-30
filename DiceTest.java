@@ -18,8 +18,9 @@ public class DiceTest {
 		dice = null;
 	}
 
-	
-	//Tester om roll slår mellem 1 og 6
+	/**
+	*Tester om roll slår mellem 1 og 6
+	*/
 	@Test
 	public void testRoll() {
 		int value;
@@ -30,7 +31,9 @@ public class DiceTest {
 				fail("Terning fik værdi mindre end 1 eller større end 6");
 		}
 	}
-	
+	/**
+	*tester om retfærdigheden efter 600000 tests med tolerence på 4%
+	*/
 	@Test
 	public void fairnessTest() 
 	{
